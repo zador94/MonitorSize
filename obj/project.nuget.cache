@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "dgSpecHash": "oK4HSyfz9WBkzHK75Zg3P5eTu6Y0Dm62Wc+xhLh5jX2O2dByVxJuUq/YnmTo6AchlTfEc8uPWeGCjB3myP4nOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andru\\RiderProjects\\MonitorSize\\MonitorSize\\MonitorSize.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andru\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\andru\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
+    "C:\\Users\\andru\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\andru\\.nuget\\packages\\system.drawing.pictograms\\1.2.20\\system.drawing.pictograms.1.2.20.nupkg.sha512",
+    "C:\\Users\\andru\\.nuget\\packages\\system.serviceprocess.servicecontroller\\7.0.0\\system.serviceprocess.servicecontroller.7.0.0.nupkg.sha512",
+    "C:\\Users\\andru\\.nuget\\packages\\system.windows.forms.pictograms\\1.3.22\\system.windows.forms.pictograms.1.3.22.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "System.Windows.Forms.Pictograms 1.3.22 depends on System.Drawing.Pictograms (>= 1.2.0) but System.Drawing.Pictograms 1.2.0 was not found. An approximate best match of System.Drawing.Pictograms 1.2.20 was resolved.",
+      "libraryId": "System.Drawing.Pictograms",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Drawing.Pictograms 1.2.20' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Drawing.Pictograms",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Windows.Forms.Pictograms 1.3.22' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Windows.Forms.Pictograms",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
